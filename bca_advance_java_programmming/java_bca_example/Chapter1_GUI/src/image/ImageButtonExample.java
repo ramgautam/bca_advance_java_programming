@@ -31,9 +31,11 @@ public class ImageButtonExample {
 
             // Create a JButton with the image icon
             JButton button = new JButton(icon);
+            button.setPreferredSize(new Dimension(150, 30));
 
             // Create a JLabel to display the image when the button is clicked
             JLabel imageLabel = new JLabel();
+            imageLabel.setPreferredSize(new Dimension(150, 30));
             imageLabel.setHorizontalAlignment(JLabel.CENTER);
             imageLabel.setVerticalAlignment(JLabel.CENTER);
 
@@ -42,6 +44,7 @@ public class ImageButtonExample {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     imageLabel.setIcon(icon);
+                    imageLabel.setPreferredSize(new Dimension(150, 30));
                     JOptionPane.showMessageDialog(null, "Image Button Clicked!");
                 }
             });

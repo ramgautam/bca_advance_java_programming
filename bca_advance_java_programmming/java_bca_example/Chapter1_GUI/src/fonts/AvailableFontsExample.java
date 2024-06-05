@@ -16,7 +16,7 @@ public class AvailableFontsExample {
 
             // Create a JLabel to display the selected font
             JLabel label = new JLabel("Sample Text");
-            label.setFont(new Font("Serif", Font.PLAIN, 24));
+            label.setFont(new Font("Arial", Font.PLAIN, 24));
 
             // Get all available font family names
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
@@ -30,7 +30,7 @@ public class AvailableFontsExample {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     String selectedFont = (String) fontComboBox.getSelectedItem();
-                    label.setFont(new Font(selectedFont, Font.PLAIN, 24));
+                    label.setFont(new Font(selectedFont, Font.ITALIC, 24));
                 }
             });
 
