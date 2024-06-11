@@ -1,3 +1,5 @@
+package fonts;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -16,7 +18,7 @@ public class AvailableFontsExample {
 
             // Create a JLabel to display the selected font
             JLabel label = new JLabel("Sample Text");
-            label.setFont(new Font("Arial", Font.PLAIN, 24));
+            label.setFont(new Font("Preeti", Font.PLAIN, 24));
 
             // Get all available font family names
             GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();

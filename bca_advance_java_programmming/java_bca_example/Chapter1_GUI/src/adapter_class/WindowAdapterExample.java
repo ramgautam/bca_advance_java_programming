@@ -3,7 +3,7 @@ package adapter_class;
 import javax.swing.*;
 import java.awt.event.*;
 
-public class WindowAdapterExample extends JFrame {
+public class WindowAdapterExample extends JFrame  {
 
     public WindowAdapterExample() {
         setTitle("Window Adapter Example");
