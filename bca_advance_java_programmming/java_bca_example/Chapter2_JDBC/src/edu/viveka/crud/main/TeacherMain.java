@@ -1,8 +1,8 @@
-package crud.main;
+package edu.viveka.crud.main;
 
-import crud.controller.TeacherController;
-import crud.service.TeacherService;
-import crud.view.TeacherView;
+import edu.viveka.crud.controller.TeacherController;
+import edu.viveka.crud.service.TeacherService;
+import edu.viveka.crud.view.TeacherView;
 
 public class TeacherMain {
 

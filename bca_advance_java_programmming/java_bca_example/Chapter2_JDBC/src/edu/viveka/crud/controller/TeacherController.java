@@ -1,8 +1,8 @@
-package crud.controller;
+package edu.viveka.crud.controller;
 
-import crud.model.TeacherModel;
-import crud.service.TeacherService;
-import crud.view.TeacherView;
+import edu.viveka.crud.model.TeacherModel;
+import edu.viveka.crud.service.TeacherService;
+import edu.viveka.crud.view.TeacherView;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

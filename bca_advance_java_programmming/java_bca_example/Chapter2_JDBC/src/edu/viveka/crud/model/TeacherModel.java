@@ -1,4 +1,4 @@
-package crud.model;
+package edu.viveka.crud.model;
 
 public class TeacherModel {
 

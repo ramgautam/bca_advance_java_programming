@@ -1,7 +1,7 @@
-package crud.service;
+package edu.viveka.crud.service;
 
-import crud.model.TeacherModel;
-import crud.util.DatabaseHelper;
+import edu.viveka.crud.model.TeacherModel;
+import edu.viveka.crud.util.DatabaseHelper;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

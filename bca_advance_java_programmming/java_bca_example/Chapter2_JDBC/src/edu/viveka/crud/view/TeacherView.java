@@ -1,6 +1,6 @@
-package crud.view;
+package edu.viveka.crud.view;
 
-import crud.model.TeacherModel;
+import edu.viveka.crud.model.TeacherModel;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

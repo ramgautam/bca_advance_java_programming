@@ -1,4 +1,4 @@
-package crud.util;
+package edu.viveka.crud.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
