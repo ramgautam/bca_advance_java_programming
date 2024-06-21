@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java_bca_example/Chapter1_GUI/Chapter1_GUI.iml" filepath="$PROJECT_DIR$/java_bca_example/Chapter1_GUI/Chapter1_GUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_bca_example/Chapter2_JDBC/Chapter2_JDBC.iml" filepath="$PROJECT_DIR$/java_bca_example/Chapter2_JDBC/Chapter2_JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_bca_example/Chater3_JavaBean/Chater3_JavaBean.iml" filepath="$PROJECT_DIR$/java_bca_example/Chater3_JavaBean/Chater3_JavaBean.iml" />
       <module fileurl="file://$PROJECT_DIR$/bca_advance_java_programmming.iml" filepath="$PROJECT_DIR$/bca_advance_java_programmming.iml" />
     </modules>
   </component>
