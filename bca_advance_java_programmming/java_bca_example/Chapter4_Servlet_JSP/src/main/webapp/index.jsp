@@ -8,8 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
-<%! String name="Java Class"%>
+<%! String name="Java Class"; %>
 <h2>Hello, World!</h2>
+<%-- This is a JSP comment  --%>
 <form action="hello" method="post">
     <input type="text" name="name" placeholder="Enter your name"/>
     <input type="button" value="Submit" onclick=""/>
