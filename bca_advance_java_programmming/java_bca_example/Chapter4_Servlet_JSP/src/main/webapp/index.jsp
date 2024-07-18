@@ -13,6 +13,9 @@
     <input type="text" name="name" placeholder="Enter your name"/>
     <input type="button" value="Submit" onclick=""/>
     <LI>Current time: <%= new java.util.Date() %>
+    <% for (int i=0;i<10 ;i++){ %>
+        <LI> value from  loop <%= i%></LI>
+    <%}%>
     <LI>Your hostname: <%= request.getRemoteHost() %>
 
 </form>
