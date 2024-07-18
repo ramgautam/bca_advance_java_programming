@@ -8,13 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
+<%! String name="Java Class"%>
 <h2>Hello, World!</h2>
 <form action="hello" method="post">
     <input type="text" name="name" placeholder="Enter your name"/>
     <input type="button" value="Submit" onclick=""/>
     <LI>Current time: <%= new java.util.Date() %>
     <% for (int i=0;i<10 ;i++){ %>
-        <LI> value from  loop <%= i%></LI>
+        <LI> value from  loop <%= i %> And variable value: <%= name %></LI>
     <%}%>
     <LI>Your hostname: <%= request.getRemoteHost() %>
 
