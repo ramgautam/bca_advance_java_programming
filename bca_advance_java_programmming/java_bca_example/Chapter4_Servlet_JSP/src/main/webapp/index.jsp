@@ -11,7 +11,10 @@
 <h2>Hello, World!</h2>
 <form action="hello" method="post">
     <input type="text" name="name" placeholder="Enter your name"/>
-    <input type="submit" value="Submit"/>
+    <input type="button" value="Submit" onclick=""/>
+    <LI>Current time: <%= new java.util.Date() %>
+    <LI>Your hostname: <%= request.getRemoteHost() %>
+
 </form>
 </body>
 </html>
